@@ -4,22 +4,36 @@ public class Dog {
     private String name;
     private String favoriteToy;
     private int age;
-    public Dog(String name, String favoriteToy, int age) {
+    public static String makeNoise;
+    private boolean isFed;
+
+    public Dog(String name, String favoriteToy, int age, String makeNoise) {
         this.name = name;
         this.favoriteToy = favoriteToy;
         this.age = age;
+        this.makeNoise = makeNoise;
+    }
 
+    public Dog(String fido, String bone, int age) {
     }
 
     public String getName() {
         return name;
     }
-
     public String getFavoriteToy() {
         return favoriteToy;
     }
-
     public int getAge() {
         return age;
     }
+    public String getMakeNoise() {return makeNoise; }
+    public void feed(String food) {
+        System.out.println(name +" eat some " +food);
+        this.isFed = true;
+    }
+
+    public boolean isFed() {
+        return isFed;
+    }
+    public String makeNoise() { return makeNoise; }
 }
