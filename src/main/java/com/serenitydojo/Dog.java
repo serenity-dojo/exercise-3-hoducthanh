@@ -11,7 +11,7 @@ public class Dog {
         this.name = name;
         this.favoriteToy = favoriteToy;
         this.age = age;
-        this.makeNoise = makeNoise;
+        Dog.makeNoise = makeNoise;
     }
 
     public Dog() {
