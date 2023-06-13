@@ -14,7 +14,7 @@ public class Dog {
         this.makeNoise = makeNoise;
     }
 
-    public Dog(String fido, String bone, int age) {
+    public Dog() {
     }
 
     public String getName() {
