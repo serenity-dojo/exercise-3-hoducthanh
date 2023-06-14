@@ -5,7 +5,7 @@ public class Dog {
     private String favoriteToy;
     private int age;
     private boolean isFed;
-    public static final String DOG_NOISE = "WOOF WOOF!!";
+    public static String DOG_NOISE = "WOOF WOOF!!";
 
     public Dog(String name, String favoriteToy, int age) {
         this.name = name;
