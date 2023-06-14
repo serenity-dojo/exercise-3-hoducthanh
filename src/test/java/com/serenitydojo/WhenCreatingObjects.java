@@ -21,6 +21,6 @@ public class WhenCreatingObjects {
 
         fido.feed("steaks");
 
-            Assert.assertTrue("Fido is not fed", fido.isFed());
+        Assert.assertTrue("Fido is not fed", fido.isFed());
     }
 }
